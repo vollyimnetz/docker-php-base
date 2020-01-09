@@ -12,5 +12,5 @@ if($conn) {
     echo '<p>DB-Connection: Success</p>';
 } else {
     echo '<p>DB-Connection: <strong>Failed</strong></p>';
-    echo '<p><strong>HINT: </strong>Restart the db-container if this is the fist time (the container cant rewire the new db that is instanced on the fly)</p>';
+    echo '<p><strong>HINT: </strong>Restart the db-container if this is the first time (the container cant rewire the new db that is instanced on the fly)</p>';
 }
